@@ -1,0 +1,15 @@
+
+[data-editable] {
+    color: #428bca;
+    border-bottom: dashed 1px #428bca;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+
+
+[data-editable]:empty::before {
+content: 'Not Set';
+font-style: italic;
+color: #dd1144
+}
